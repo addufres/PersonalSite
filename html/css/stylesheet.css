@@ -1,0 +1,66 @@
+#duke {
+  height: 25%;
+  width: 25%;
+}
+#headshot {
+  position: relative;
+  border: 2px solid black;
+  top: 100px;
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+}
+
+#background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+ .bg-black {
+   background-color: #1F1F1F;
+ }
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.headline-text {
+  font-weight: bold;
+  font-family: trebuchet;
+}
+
+ul.mc {
+  position: relative;
+  top: 100px;
+  color: white;
+  font-family: trebuchet;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  position: relative;
+  top: 100px;
+  color: white;
+  font-family: trebuchet;
+}
+
+p, .mc, .headline-text {
+  letter-spacing: .1em;
+}
+li {
+  list-style-type: none;
+}
+.row {
+  position: relative;
+}
+.bordered {
+  border: 2px solid black;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.colorchange {
+  color: #afafaf;
+}
