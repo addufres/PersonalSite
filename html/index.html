@@ -1,151 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
     <title>Andrew Dufresne</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <img id="background" src="images/darkbg.jpg">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-            <a class="navbar-brand" href="./index.html"><img id="duke" src="https://dotnetdavid.files.wordpress.com/2013/09/java-duke-logo.png" alt="Duke Mascot"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+<body id="page-top">
 
-                    <div class="col">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                    </div>
-
-                    <div class="col">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./projects.html">Projects</a>
-                        </li>
-                    </div>
-
-                    <div class="col">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About</a>
-                        </li>
-                    </div>
-
-                    <div class="col">
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="contact.html">Contact</a>
-                        </li>
-                    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Andrew Dufresne</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact Links</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col>">
-                <h1 class="headline-text">Andrew Dufresne Home Page</h1>
-            </div>
-            <div class="col"></div>
         </div>
-        <div class="row">
-            <div class="col-7">
-                <p>Welcome, my name is Andrew Dufresne.</p>
-                <p>I am a professional completing a Fullstack Java/JavaEE course at Skill Distillery in Denver, Colorado. I am an experienced leader and proven producer with a demonstrated history of working in numerous industries. I am skilled in several
-                    disciplines spanning Fullstack Development, Military Leadership, Sales, Leadership Development, Time Management, and CRM.</p>
-                <p>I am proficient in the following</p>
+    </nav>
 
-                <ul class="mc">
-                    <div class="row">
+    <header class="bg-prim text-white">
+        <img id="back-hd" class="bottomline" src="images/black_and_white_city-wallpaper-1920x1080.png">
+        <div class="container text-center">
+            <br><img class="profile-pic" src="images/bikepic.jpg">
+            <div class="lowerLine">
+                <h1 id="nameTop" class="vaporwave">Andrew Dufresne</h1>
+                <p class="lead vaporwave">Full-Stack Java Developer <strong>|</strong> Software Engineer</p>
+            </div>
+        </div>
+    </header>
 
-                        <div class="col bordered">
-                            <li>Programming Languages:
-                                <ul>
-                                    <li class="colorchange">Java</li>
-                                    <li class="colorchange">JavaScript</li>
-                                    <li class="colorchange">SQL</li>
-                                    <li class="colorchange">MySQL</li>
-                                    <li class="colorchange">Typescript</li>
-                                    <li class="colorchange">HTML/CSS</li>
-                                </ul>
-                            </li>
-                        </div>
+    <section id="about" class="bottomline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>About Me</h2>
+                    <p class="lead">Hello, my name is Andrew Dufresne and I am a tech professional completing a Fullstack Java/JavaEE course at Skill Distillery in Denver, Colorado. I am an experienced leader and proven producer with a demonstrated history of working
+                        in numerous industries. I am skilled in several disciplines spanning Fullstack Development, Military Leadership, Leadership Development, and Time Management.</p>
+                    <p class="lead">The technologies I use are:</p>
+                    <ul class="lead">
+                        <div class="row">
 
-                        <div class="col bordered">
-                            <li>Development Tools:
-                                <ul>
-                                    <li class="colorchange">Eclipse IDE</li>
-                                    <li class="colorchange">Atom Editor</li>
-                                    <li class="colorchange">AWS</li>
+                            <div class="col bordered">
+                                <li>Programming Languages:
                                     <ul>
-                                        <li class="colorchange">Tomcat</li>
-                                        <li class="colorchange">Apache</li>
+                                        <li>Java</li>
+                                        <li>JavaScript</li>
+                                        <li>SQL</li>
+                                        <li>MySQL</li>
+                                        <li>Typescript</li>
+                                        <li>HTML/CSS</li>
                                     </ul>
-                                    <li class="colorchange">Git</li>
+                                </li>
+                            </div>
 
-                                </ul>
-                            </li>
+                            <div class="col bordered">
+                                <li>Development Tools:
+                                    <ul>
+                                        <li>Eclipse IDE</li>
+                                        <li>Atom Editor</li>
+                                        <li>AWS</li>
+                                        <ul>
+                                            <li>Tomcat</li>
+                                            <li>Apache</li>
+                                        </ul>
+                                        <li>Git</li>
+
+                                    </ul>
+                                </li>
+                            </div>
                         </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col bordered">
+                        <hr>
+                        <div class="row">
+                            <div class="col bordered">
                                 <div class="row">
                                     <div class="col"></div>
                                     <div class="span-10">
-                                          <li>Development Frameworks:
+                                        <li>Development Frameworks:
                                     </div>
                                     <div class="col"></div>
                                 </div>
                                 <ul>
                                     <div class="row">
                                         <div class="col">
-                                            <li class="colorchange">Bootstrap</li>
-                                            <li class="colorchange">JSP</li>
-                                            <li class="colorchange">JDBC</li>
-                                            <li class="colorchange">STS</li>
-                                            <li class="colorchange">JPA</li>
-                                            <li class="colorchange">Maven</li>
-                                            <li class="colorchange">Gradle</li>
+                                            <li>Bootstrap</li>
+                                            <li>JSP</li>
+                                            <li>JDBC</li>
+                                            <li>STS</li>
+                                            <li>JPA</li>
+                                            <li>Maven</li>
+                                            <li>Gradle</li>
                                         </div>
-                                        
+
                                         <div class="col">
-                                            <li class="colorchange">Hibernate</li>
-                                            <li class="colorchange">SpringBoot</li>
-                                            <li class="colorchange">SpringDataJPA</li>
-                                            <li class="colorchange">SpringREST</li>
-                                            <li class="colorchange">Rest</li>
-                                            <li class="colorchange">Angular</li>
-                                            <li class="colorchange">SpringMVC</li>
+                                            <li>Hibernate</li>
+                                            <li>SpringBoot</li>
+                                            <li>SpringDataJPA</li>
+                                            <li>SpringREST</li>
+                                            <li>Rest</li>
+                                            <li>Angular</li>
+                                            <li>SpringMVC</li>
                                         </div>
                                     </div>
                                 </ul>
-                            </li>
+                                </li>
+                            </div>
                         </div>
-                    </div>
-                </ul>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-5">
-                <img id="headshot" src="images/headshot.jpg" alt="Andrew Dufresne Picture">
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </section>
+
+    <section id="portfolio" class="bg-dark bottomline light-font">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+
+                    <h2>My Portfolio</h2>
+                    <p class="lead">I have included projects I have done since I have been in school to showcase my knowledge.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Contact us</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Andrew Dufresne &copy; 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
 </body>
 
 </html>
