@@ -2,185 +2,316 @@
 <html lang="en">
 
 <head>
+	<title>Andrew Dufresne Personal Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Creative Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<!-- script to hide url bar -->
+	<script type="application/x-javascript">
+		addEventListener("load", function() {
+			setTimeout(hideURLbar, 0);
+		}, false);
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- menu -->
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- //menu -->
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
 
-    <title>Andrew Dufresne</title>
+				autoPlay: 3000, //Set AutoPlay to 3 seconds
+				autoPlay: true,
+				items: 3,
+				itemsDesktop: [640, 5],
+				itemsDesktopSmall: [414, 4]
 
-    <!-- Bootstrap core CSS -->
+			});
 
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
+		});
+	</script>
 </head>
 
-<body id="page-top">
+<body>
+	<!-- banner -->
+	<div class="banner" id="home">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Andrew Dufresne</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact Links</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+		<!-- menu -->
+		<div id="toggle_m_nav">
+			<div id="m_nav_menu" class="m_nav">
+				<div class="m_nav_ham" id="m_ham_1"></div>
+				<div class="m_nav_ham" id="m_ham_2"></div>
+				<div class="m_nav_ham" id="m_ham_3"></div>
+			</div>
+		</div>
 
-    <header class="bg-prim text-white">
-        <img id="back-hd" class="bottomline" src="images/black_and_white_city-wallpaper-1920x1080.png">
-        <div class="container text-center">
-            <br><img class="profile-pic" src="images/bikepic.jpg">
-            <div class="lowerLine">
-                <h1 id="nameTop" class="vaporwave">Andrew Dufresne</h1>
-                <p class="lead vaporwave">Full-Stack Java Developer <strong>|</strong> Software Engineer</p>
-            </div>
-        </div>
-    </header>
+		<div id="m_nav_container" class="m_nav">
+			<ul id="m_nav_list" class="m_nav">
+				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">Home</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">Projects</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">Contact</a> </li>
+			</ul>
+		</div>
+		<!-- menu -->
+		<div class="container">
+			<div class="agile-logo">
+				<h1><a href="index.html">Andrew<span>Dufresne</span></a></h1>
+			</div>
+			<div class="w3l-banner-grids">
+				<div class="col-md-8 w3ls-banner-right">
+					<div class="banner-right-img">
+						<img src="images/bikepic.jpg" alt="Andrew on a bike" />
+					</div>
+					<div class="banner-right-info">
+						<h2>Hi, and welcome to my website!</h2>
+						<p>I'm Andrew Dufresne, a professional fullstack Java developer and software engineer. I am a United States Marine transitioning towards a positive and successful career helping shape tomorrows technology. I am incredibly interested with product creation and design and being a part of the whole process from start to finish. In addition to programming, I am a gearhead and can often be found either wrenching on one of my cars or trying to find a way to get more for less.</p>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="w3-button">
+						<div class="w3-button-info m_nav_item">
+							<a class="hvr-sweep-to-bottom" href="#contact">Contact Me</a>
+						</div>
+					</div>
+					<div class="social-grids">
+						<div class="social-info">
+							<h4>Follow : </h4>
+						</div>
+						<div class="agileinfo-social-grids">
+							<ul>
+								<li><a href="https://www.linkedin.com/in/andrewdufresne13/"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/addufres"><i class="fa fa-github"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-banner-left">
+					<div class="w3ls-banner-left-info">
+						<h4>Name</h4>
+						<p>Andrew Dufresne</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Job Title</h4>
+						<p>Java Full Stack Developer / Software Engineer</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Address</h4>
+						<p>Broomfield, CO</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Email Address</h4>
+						<p><a class="hvr-sweep-to-bottom" href="#contact">adufresplatinum@gmail.com</a></p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about">
+		<iframe name="hiddenFrame" class="show inback"></iframe>
+		<div class="container">
+			<div class="wthree-about-grids">
+				<div class="span wthree-about-left">
+					<h3>About Me</h3>
+					<h4>A key asset and a professional software engineer.</h4>
+					<p>Hello, my name is Andrew Dufresne and I am a Marine and US Veteran completing a Fullstack Java/JavaEE course at Skill Distillery in Denver, Colorado. I have been into technology and computers for a very long time. I began dabbling in programming a few years back but started taking it seriously the last two year.<span>I am an experienced leader and proven producer with a demonstrated history of working
+							in numerous industries. I am skilled in several disciplines spanning Fullstack Development, Military Leadership, and Leadership Development. My focus is finding an organization that will fostor growth as a developer and individual.</span> I am eager to grow and face new challenges with any organization dedicated to a positive work/life
+						balance for its employees, and an atmosphere conducive to productivity and efficiency.</p>
+				</div>
+				<div class="span wthree-about-center" id="skills">
+					<h3>Techonologies/Tools I use:</h3>
+					<div class="skills-bar">
+						<section class='bar'>
+							<section class='wrap'>
+								<div class='wrap_right'>
+									<div class='bar_group'>
+										<div class='bar_group__bar thin' label='Java' show_values='false' value='715'></div>
+										<div class='bar_group__bar thin' label='MySQL' show_values='false'  value='350'></div>
+										<div class='bar_group__bar thin' label='Maven' show_values='false'  value='245'></div>
+										<div class='bar_group__bar thin' label='Javascript' show_values='false'  value='415'></div>
+										<div class='bar_group__bar thin' label='HTML/CSS' show_values='false'  value='570'></div>
+										<div class='bar_group__bar thin' label='AWS Tomcat/Apache' show_values='false'  value='270'></div>
+										<div class='bar_group__bar thin' label='Git' show_values='false'  value='555'></div>
+										<div class='bar_group__bar thin' label='JDBC' show_values='false'  value='360'></div>
+										<div class='bar_group__bar thin' label='Bootstrap' show_values='false'  value='270'></div>
+									</div>
+								</div>
+								<div class='clear'></div>
+							</section>
+						</section>
+					</div>
+				</div>
+				<div class="span wthree-about-right">
+					<h3>Techonologies/Tools I am learning:</h3>
+					<div class="skills-bar">
+						<section class='bar'>
+							<section class='wrap'>
+								<div class='wrap_right'>
+									<div class='bar_group'>
+										<div class='bar_group__bar thin' label='........JSP(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........STS(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........JPA(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........Gradle(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........Hibernate(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........SpringBoot(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........SpringDataJPA(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........SpringREST(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........Rest(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........Angular(will know by graduation)' show_values='false'  value='0'></div>
+										<div class='bar_group__bar thin' label='........SpringMVC(will know by graduation)' show_values='false'  value='0'></div>
+									</div>
+								</div>
+								<div class='clear'></div>
+							</section>
+						</section>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
 
-    <section id="about" class="bottomline">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About Me</h2>
-                    <p class="lead">Hello, my name is Andrew Dufresne and I am a tech professional completing a Fullstack Java/JavaEE course at Skill Distillery in Denver, Colorado. I am an experienced leader and proven producer with a demonstrated history of working
-                        in numerous industries. I am skilled in several disciplines spanning Fullstack Development, Military Leadership, Leadership Development, and Time Management.</p>
-                    <p class="lead">The technologies I use are:</p>
-                    <ul class="lead">
-                        <div class="row">
+	<!-- projects -->
 
-                            <div class="col bordered">
-                                <li>Programming Languages:
-                                    <ul>
-                                        <li>Java</li>
-                                        <li>JavaScript</li>
-                                        <li>SQL</li>
-                                        <li>MySQL</li>
-                                        <li>Typescript</li>
-                                        <li>HTML/CSS</li>
-                                    </ul>
-                                </li>
-                            </div>
+	<!-- //projects -->
 
-                            <div class="col bordered">
-                                <li>Development Tools:
-                                    <ul>
-                                        <li>Eclipse IDE</li>
-                                        <li>Atom Editor</li>
-                                        <li>AWS</li>
-                                        <ul>
-                                            <li>Tomcat</li>
-                                            <li>Apache</li>
-                                        </ul>
-                                        <li>Git</li>
+	<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>Contact Me</h3>
+			</div>
+			<div class="contact-form">
+				<form action="https://script.google.com/macros/s/AKfycbw2Oj74c94K_c7uL7Duig70lVlVK1sK6RRHyu17inoRriQ9CPg/exec" method="post" target="hiddenFrame">
+					<form action="index.html" method="post">
+						<div class="fields-grid">
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="Full Name" required="">
+								<label>Full Name</label>
+								<span></span>
+							</div>
+							<div class="styled-input agile-styled-input-top">
+								<input type="text" name="Phone" required="">
+								<label>Phone</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="Email" required="">
+								<label>Email</label>
+								<span></span>
+							</div>
+							<div class="styled-input">
+								<input type="text" name="Subject" required="">
+								<label>Subject</label>
+								<span></span>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="styled-input textarea-grid">
+							<textarea name="Message" required=""></textarea>
+							<label>Message</label>
+							<span></span>
+						</div>
+						<input type="submit" value="SEND" onclick="myFunction()">
+					</form>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
 
-                                    </ul>
-                                </li>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col bordered">
-                                <div class="row">
-                                    <div class="col"></div>
-                                    <div class="span-10">
-                                        <li>Development Frameworks:
-                                    </div>
-                                    <div class="col"></div>
-                                </div>
-                                <ul>
-                                    <div class="row">
-                                        <div class="col">
-                                            <li>Bootstrap</li>
-                                            <li>JSP</li>
-                                            <li>JDBC</li>
-                                            <li>STS</li>
-                                            <li>JPA</li>
-                                            <li>Maven</li>
-                                            <li>Gradle</li>
-                                        </div>
+	<!-- map -->
+	<div class="map-grid">
+		<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBktZsUBGnHuH61Rem_OfVqYBolthORrbQ&q=Broomfield,+CO" class="map" style="border:0" allowfullscreen=""></iframe>
+	</div>
+	<!-- //map -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="wrap">
+			<div class="row-content buffer clear-after">
+				<section id="top-footer">
+					<div class="widget column two">
+						<h4>Menu</h4>
+						<ul class="plain">
+							<li> <a href="#home" class="scroll">Home</a> </li>
+							<li><a href="#about " class="scroll">About Me</a></li>
+							<li><a href="#skills" class="scroll">Skills</a> </li>
+							<li><a class="#projects" href="#Experience">Experience</a></li>
+							<li><a href="#contact" class="scroll">Contact</a></li>
+							<div class="clear"> </div>
+						</ul>
+					</div>
+					<div class="widget meta-social column two last">
+						<div class="soc_icons soc_icons1">
+							<h4>Follows</h4>
+							<ul>
+								<li> Connect with me on LinkedIn <a class="fa fa-linkedin" href="https://www.linkedin.com/in/andrewdufresne13/"></a></li>
+								<li> Check out my Github Repos <a class="fa fa-github" href="https://github.com/addufres"> </a></li>
+								<div class="clear"> </div>
+						</div>
+					</div>
+					<div class="clear"> </div>
+					<br>
+					<div class="row">
+						<div class="span-md-10">
+							<div id="teeny"><p></p><p></p>Java Specialist | Java Developer | Java Programmer | JavaEE | Talented Java developer |
+						Andrew Dufresne Java Specialist | Andrew Dufresne Java Developer | Andrew Dufresne Java Programmer | Andrew Dufresne Java Fullstack Developer | Andrew Dufresne Full Stack Engineer |
+						Java Specialist in Broomfield, CO | Java Developer in Colorado | Java Fullstack in Colorado | JavaEE Developer in Denver |
+						 | Fullstack Java developer in Denver | Java developer available immediately |
+						 Java Developer Personal Website | Java Developer Personal Website Colorado | Java Developer Personal Website Andrew Dufresne</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
 
-                                        <div class="col">
-                                            <li>Hibernate</li>
-                                            <li>SpringBoot</li>
-                                            <li>SpringDataJPA</li>
-                                            <li>SpringREST</li>
-                                            <li>Rest</li>
-                                            <li>Angular</li>
-                                            <li>SpringMVC</li>
-                                        </div>
-                                    </div>
-                                </ul>
-                                </li>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="bg-dark bottomline light-font">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-
-                    <h2>My Portfolio</h2>
-                    <p class="lead">I have included projects I have done since I have been in school to showcase my knowledge.</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Contact us</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Andrew Dufresne &copy; 2018</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="jquery/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-
+	<!-- scripts -->
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/jquery.cm-overlay.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.cm-overlay').cmOverlay();
+		});
+	</script>
+	<script>
+		function myFunction() {
+			location.reload();
+		}
+	</script>
+	<script src="js/bars.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+	<!-- //scripts -->
 </body>
 
 </html>
