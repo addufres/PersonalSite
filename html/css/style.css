@@ -24,11 +24,7 @@ body{
 	background:#FFFFFF;
 }
 /*-- banner --*/
-.banner{
-	background: url(../images/cityHD.png) no-repeat 0px 0;
-    background-size: cover;
-    padding: 1em 0 5em;
-}
+
 .agile-logo {
     width: 13%;
 }
@@ -1216,4 +1212,26 @@ body{
 #teeny {
   font-size: 12px;
   margin: 0px 5px
+}
+.parallax {
+    /* The image used */
+    background-image: url("../images/cityHD.png");
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    padding: 0em 0em 0em 0em;
+    /* Create the parallax scrolling effect */
+    margin-top: 0;
+    border-top: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner{
+    background-size: cover;
+
 }
