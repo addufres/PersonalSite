@@ -1584,27 +1584,27 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: auto;
+    width: 100%;
     padding: 2em 2em 2em 2em;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: auto;
+    width: 100%;
     padding: 2em 2em 2em 2em;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: auto;
+    width: 100%;
     padding: 2em 2em 2em 2em;
   }
 }
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: inherit;
+  margin-left: inherit;
 }
 .row {
   margin-right: -15px;
