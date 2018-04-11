@@ -1584,19 +1584,19 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 100%;
+    width: 800px;
     padding: 2em 2em 2em 2em;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 100%;
+    width: 1175px;
     padding: 2em 2em 2em 2em;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 100%;
+    width: 1300px;
     padding: 2em 2em 2em 2em;
   }
 }
